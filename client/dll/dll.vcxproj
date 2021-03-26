@@ -62,7 +62,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <AdditionalLibraryDirectories>G:\MSVS19 Projects\client\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>anti-re_x86.lib;easy-hwid_x86.lib;easy-packer_x86.lib;softon-socket_x86.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>anti-re_x86d.lib;easy-hwid_x86d.lib;easy-packer_x86d.lib;softon-socket_x86d.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
