@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="local_player.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="hack_detector.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl2.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="valve-sdk\misc\parsemsg.cpp">
+      <Filter>valve-sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="valve-sdk\vgui\Interface.cpp">
+      <Filter>valve-sdk\vgui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="usermsg.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="kreedz.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="visual.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="offset.cpp" />
+    <ClCompile Include="vmt-hook\vmt_hook.cpp">
+      <Filter>vmt-hook</Filter>
+    </ClCompile>
+    <ClCompile Include="file_system.cpp" />
+    <ClCompile Include="hook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="local_player.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="hack_detector.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_hotkey.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl2.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_image.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\beamdef.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\com_model.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\con_nprint.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\const.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\crc.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\cvardef.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\demo_api.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\director_cmds.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\dlight.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\dll_state.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\entity_types.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\event_api.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\event_args.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\event_flags.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\event_hook.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\exefuncs.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\in_buttons.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\ivoicetweak.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\mathlib.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\net_api.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\netadr.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\particledef.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\r_efx.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\ref_params.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\screenfade.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\studio_event.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\triangleapi.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\usercmd.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\common\weaponinfo.h">
+      <Filter>valve-sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\cdll_dll.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\cdll_engine_dll.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\Cdll_int.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\cl_dll.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\cl_entity.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\client.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\common.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\const.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\custom.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\customentity.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\cvardef.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\edict.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\eiface.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\entity_state.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\entity_types.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\event_args.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\event_flags.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\in_buttons.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\keydefs.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\net.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\pm_defs.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\pm_info.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\pmtrace.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\progdefs.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\progs.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\r_studioint.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\studio.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\studio_event.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\triangleapi.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\usercmd.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\util_vector.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\weaponinfo.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\engine\wrect.h">
+      <Filter>valve-sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\misc\parsemsg.h">
+      <Filter>valve-sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\misc\usermsg.h">
+      <Filter>valve-sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\vgui\IEngineVGui.h">
+      <Filter>valve-sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\vgui\IGameConsole.h">
+      <Filter>valve-sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\vgui\Interface.h">
+      <Filter>valve-sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\vgui\IPanel.h">
+      <Filter>valve-sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="valve-sdk\vgui\Scheme.h">
+      <Filter>valve-sdk\vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="usermsg.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="kreedz.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="visual.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h" />
+    <ClInclude Include="vmt-hook\vmt_hook.h">
+      <Filter>vmt-hook</Filter>
+    </ClInclude>
+    <ClInclude Include="file_system.h" />
+    <ClInclude Include="hook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{fd1491a8-757f-418d-812b-7b192690c498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valve-sdk">
+      <UniqueIdentifier>{35269e7e-f37e-4aac-a9c4-9b6f8c7b58c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valve-sdk\common">
+      <UniqueIdentifier>{a046e946-5704-46ee-9cf2-71c1e645c45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valve-sdk\engine">
+      <UniqueIdentifier>{b13d2afb-540c-4491-9b9c-99efef174414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valve-sdk\misc">
+      <UniqueIdentifier>{33579d9d-e988-49a4-b4b3-fa5f13a7c00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valve-sdk\vgui">
+      <UniqueIdentifier>{b2aebcf8-2883-48b0-8399-afc7debf771d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{5ab22d44-6fba-4ee2-a2da-0424389ad0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{e12db5ed-94ca-4dbc-8951-8c8efa70024c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmt-hook">
+      <UniqueIdentifier>{3e562a8b-6803-4420-b00c-41d9c53b43af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
